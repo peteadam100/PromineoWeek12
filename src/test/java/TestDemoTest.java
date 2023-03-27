@@ -26,7 +26,6 @@ class TestDemoTest {
 		doReturn(5).when(mockDemo).getRandomInt();
 		int fiveSquared = mockDemo.randomNumberSquared();
 		assertThat(fiveSquared).isEqualTo(25);
-		System.out.println(fiveSquared);
 	}
 
 	@ParameterizedTest
